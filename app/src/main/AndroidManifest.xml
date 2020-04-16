@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.primeiroapp.minhapedidadb">
+    package="br.com.primeiroapp.minhapedida">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.CategoriaActivity"></activity>
-        <activity android:name=".view.NovoProdutoActivity" />
-        <activity android:name=".view.ProdutoItemComandaActivity" />
-        <activity android:name=".view.ItemComandaActivity" />
-        <activity android:name=".view.MainActivity">
+        <activity android:name="br.com.primeiroapp.minhapedida.view.CategoriaActivity"></activity>
+        <activity android:name="br.com.primeiroapp.minhapedida.view.NovoProdutoActivity" />
+        <activity android:name="br.com.primeiroapp.minhapedida.view.ProdutoItemComandaActivity" />
+        <activity android:name="br.com.primeiroapp.minhapedida.view.ItemComandaActivity" />
+        <activity android:name="br.com.primeiroapp.minhapedida.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
